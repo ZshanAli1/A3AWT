@@ -1,0 +1,47 @@
+.citiesContainer {
+  padding: 20px;
+  margin-top: 110px;
+}
+
+.citiesContainer h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 0;
+}
+
+.citiesContainer p {
+  font-size: 16px;
+  color: #666;
+}
+.imgDiv {
+  padding: 0px;
+}
+.citiesContainer .img {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.citiesContainer .img img {
+  width: 100%;
+  height: auto;
+}
+
+.citiesContainer iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.citiesContainer .row {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .citiesContainer .col {
+    text-align: center;
+  }
+  .citiesContainer .col h2 {
+    font-size: 20px;
+  }
+}

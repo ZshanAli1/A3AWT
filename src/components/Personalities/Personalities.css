@@ -1,0 +1,56 @@
+.showcase {
+  background: #ddd;
+  padding: 5rem 0;
+  height: 500px;
+  margin-top: 110px;
+}
+
+.row {
+  height: 350px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.315);
+}
+
+.row1 {
+  margin-bottom: 10rem;
+}
+
+.row1 .img-box,
+.row2 .text-box {
+  float: left;
+  width: 50%;
+}
+
+.row2 .img-box,
+.row1 .text-box {
+  float: right;
+  width: 50%;
+}
+
+.row .img-box {
+  height: 100%;
+  padding: 0px;
+}
+.row .text-box {
+  padding: 3rem;
+}
+
+.row .img-box img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.img-box {
+  padding: 0px;
+}
+.btn {
+  font-size: 1.5rem;
+  padding: 15px 30px;
+}

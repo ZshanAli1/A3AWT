@@ -1,0 +1,51 @@
+.welcome-page {
+  background-color: #f7f7f7;
+  padding: 20px 0;
+  margin-top: 110px;
+}
+
+.container {
+  max-width: 800px; /* Limit the content width for readability */
+}
+
+.intro-section {
+  background-color: #3498db; /* Background color for the intro section */
+  color: #fff; /* Text color for the intro section */
+  text-align: center;
+  padding: 60px 0;
+}
+
+.intro-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+}
+
+/* Style other sections similarly */
+
+.about-me-section,
+.hobbies-section,
+.skills-section,
+.ambitions-section,
+.profession-section {
+  background-color: #fff; /* Background color for the content sections */
+  padding: 40px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.about-me-section h2,
+.hobbies-section h2,
+.skills-section h2,
+.ambitions-section h2,
+.profession-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.about-me-section strong {
+  color: #3498db; /* Highlighted text color */
+}
